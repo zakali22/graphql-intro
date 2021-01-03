@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "56",
+      "firstName": "Lin",
+      "lastName": "Yin",
+      "age": 30,
+      "companyId": "2",
+      "positionId": "1",
+      "friends": [{"friendId": "61"}, {"friendId": "511YAhj"}]
+    },
+    {
+      "id": "61",
+      "firstName": "Samuel",
+      "lastName": "Kein",
+      "age": 25,
+      "companyId": "3",
+      "positionId": "3",
+      "friends": [{"friendId": "56"}, {"friendId": "511YAhj"}]
+    },
+    {
+      "firstName": "Salim",
+      "lastName": "Jalal",
+      "age": 28,
+      "companyId": "2",
+      "positionId": "1",
+      "id": "511YAhj",
+      "friends": [{"friendId": "61"}, {"friendId": "56"}]
+    },
+    {
+      "firstName": "Zak",
+      "lastName": "Nate",
+      "age": 33,
+      "companyId": "2",
+      "positionId": "4",
+      "id": "98cWfaT",
+      "friends": [{"friendId": "61"}, {"friendId": "511YAhj"}]
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "Phone maker"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "Search engine"
+    },
+    {
+      "id": "3",
+      "name": "Tesla",
+      "description": "Car maker"
+    }
+  ],
+  "positions": [
+    {
+      "id": "1",
+      "title": "Software Engineer"
+    },
+    {
+      "id": "2",
+      "title": "Customer Service"
+    },
+    {
+      "id": "3",
+      "title": "Electrical Engineer"
+    },
+    {
+      "id": "4",
+      "title": "Project Manager"
+    }
+  ]
+}
